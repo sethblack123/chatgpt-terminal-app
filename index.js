@@ -10,7 +10,7 @@ const chatHistory=[];
 
 while (true){
 try{
-  const userInput = readlineSync.question(colors.red("you: "))
+  const userInput = readlineSync.question(colors.yellow("you: "))
 const messages = chatHistory.map(([role,content])=> ({role, content}))
 messages.push({role:"user", content: userInput})
 
