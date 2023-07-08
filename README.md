@@ -15,7 +15,7 @@ OPENAI_API_KEY=[PERSONALAPIKEY]
 Install dependencies:
 
 ```
-npm install all
+npm install 
 ```
 
 Run the bot:
